@@ -11,6 +11,7 @@ module Memorable
   
   module InsanceMethods
     def initialize
+      self.class.all << self 
     end
   
   end
